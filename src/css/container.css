@@ -1,19 +1,31 @@
-/* Styles for Mobile devices */
+/* Default responsive container for 320px – 374px */
 .container {
-  min-width: 320px;
-  max-width: 375px;
+  width: 100%; /* Adjust to fit small screens */
+  max-width: 335px; /* Ensures it doesn’t exceed design width */
   margin: 0 auto;
-  padding: 0 16px;
+  background-color: #0e1823;
 }
-/* Styles for Tablet devices */
-@media only screen and (min-width: 768px) {
+
+@media (min-width: 375px) {
   .container {
-    max-width: 768px;
+    width: 335px; /* Fixed width for mobile adaptive design */
   }
 }
-/* Styles for Desktop devices */
-@media only screen and (min-width: 1200px) {
+
+@media (min-width: 768px) {
   .container {
-    max-width: 1200px;
+    width: 768px; /* Fixed width for tablets */
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    width: 1280px; /* Fixed width for desktops */
+  }
+}
+
+@media (min-width: 1440px) {
+  .container {
+    width: 1440px; /* Fixed width for large desktops */
   }
 }
