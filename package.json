@@ -1,11 +1,11 @@
 {
-  "name": "vite-team-project",
+  "name": "project-WaveDevX",
   "private": true,
   "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/vite-team-project/",
+    "build": "vite build --base=/project-WaveDevX/",
     "preview": "vite preview"
   },
   "devDependencies": {
