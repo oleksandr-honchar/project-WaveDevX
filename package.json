@@ -1,11 +1,11 @@
 {
-  "name": "project-WaveDevX",
+  "name": "project-yjcrew10",
   "private": true,
   "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/project-WaveDevX/",
+    "build": "vite build --base=/project-YJcrew10/",
     "preview": "vite preview"
   },
   "devDependencies": {
