@@ -1,0 +1,48 @@
+<section class="rent-a-yacht">
+  <div class="ray-main">
+    <picture class="ray-image">
+      <source
+        srcset="src/img/rent-mob.jpg 1x, src/img/rent-mob@2x.jpg 2x"
+        media="(max-width: 767px)"
+      />
+      <source
+        srcset="src/img/rent-tab.jpg 1x, src/img/rent-tab@2x.jpg 2x"
+        media="(min-width: 768px)"
+      />
+      <source
+        srcset="src/img/rent-desk.jpg 1x, src/img/rent-desk@2x.jpg 2x"
+        media="(min-width: 1280px)"
+      />
+      <source
+        srcset="src/img/rent-widedesk.jpg 1x, src/img/rent-widedesk@2x.jpg 2x"
+        media="(min-width: 1400px)"
+      />
+      <img src="src/img/rent-mob.jpg" alt="rent-a-yacht-picture" />
+    </picture>
+    <div class="ray-infoblock">
+      <h2 class="ray-title">Rent a yacht now</h2>
+      <div class="ray-inputs">
+        <input type="text" class="ray-input" placeholder="Full Name" />
+        <input
+          type="email"
+          class="ray-input"
+          placeholder="Email"
+          pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+        />
+        <input
+          type="tel"
+          class="ray-input"
+          placeholder="Phone number"
+          pattern="^\+\d{2}-\d{3}-\d{3}-\d{2}-\d{2}$"
+        />
+        <textarea
+          name=""
+          id=""
+          class="ray-comment"
+          placeholder="Comment"
+        ></textarea>
+      </div>
+      <button type="submit" class="ray-button"></button>
+    </div>
+  </div>
+</section>

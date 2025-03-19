@@ -1,0 +1,57 @@
+.rent-a-yacht {
+  max-width: 375px;
+  background-color: #0e1823;
+  padding: 0 20px;
+}
+.ray-title {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+  margin-bottom: 40px;
+}
+.ray-inputs {
+  gap: 18px;
+}
+.ray-input {
+  background-color: transparent;
+  border: 1px solid rgba(251, 251, 251, 0.2);
+  border-radius: 12px;
+  padding: 14px 261px 14px 18px;
+  width: 335px;
+  height: 42px;
+}
+.ray-comment {
+  border: 1px solid rgba(251, 251, 251, 0.2);
+  border-radius: 12px;
+  padding: 14px 261px 80px 18px;
+  width: 335px;
+  height: 108px;
+  margin-bottom: 40px;
+}
+.ray-button {
+  font-family: 'Inter', sans-serif;
+  border-radius: 15px;
+  padding: 14px 44px;
+  width: 122px;
+  height: 46px;
+  background-color: #1b414b;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+  margin-bottom: 80px;
+}
+.ray-image {
+  border-radius: 24px;
+  width: 335px;
+  height: 412px;
+  margin-bottom: 80px;
+}
+.ray-main {
+}
+.ray-infoblock {
+}
