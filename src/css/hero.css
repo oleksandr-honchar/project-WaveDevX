@@ -1,6 +1,8 @@
-.hero {
+.hero-container {
   background-color: #0e1823;
   background-image: url(/img/hero.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
 .title-hero {

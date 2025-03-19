@@ -1,30 +1,29 @@
 /* Default responsive container for 320px – 374px */
 .container {
-  width: 100%; /* Adjust to fit small screens */
-  max-width: 335px; /* Ensures it doesn’t exceed design width */
+  max-width: 100%; /* Ensures it doesn’t exceed design width */
   margin: 0 auto;
 }
 
 @media (min-width: 375px) {
   .container {
-    width: 335px; /* Fixed width for mobile adaptive design */
+    max-width: 335px; /* Fixed width for mobile adaptive design */
   }
 }
 
 @media (min-width: 768px) {
   .container {
-    width: 768px; /* Fixed width for tablets */
+    max-width: 768px; /* Fixed width for tablets */
   }
 }
 
 @media (min-width: 1280px) {
   .container {
-    width: 1280px; /* Fixed width for desktops */
+    max-width: 1280px; /* Fixed width for desktops */
   }
 }
 
 @media (min-width: 1440px) {
   .container {
-    width: 1440px; /* Fixed width for large desktops */
+    max-width: 1440px; /* Fixed width for large desktops */
   }
 }
