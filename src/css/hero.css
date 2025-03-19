@@ -1,9 +1,9 @@
 .hero {
-  background-color: #ccc;
-  background-image: url(/img/vite-logo.png);
+  background-color: #0e1823;
+  background-image: url(/img/hero.jpg);
 }
 
 .title-hero {
-  font-size: 32px;
-  color: white;
+  font-size: 80px;
+  color: #fbfbfb;
 }

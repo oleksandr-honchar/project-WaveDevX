@@ -3,7 +3,6 @@
   width: 100%; /* Adjust to fit small screens */
   max-width: 335px; /* Ensures it doesn’t exceed design width */
   margin: 0 auto;
-  background-color: #0e1823;
 }
 
 @media (min-width: 375px) {
