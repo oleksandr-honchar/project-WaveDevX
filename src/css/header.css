@@ -6,6 +6,7 @@
   align-items: center;
   justify-content: space-between;
   padding: 7px 20px;
+  height: 42px;
 }
 
 .header-logo {
@@ -33,6 +34,7 @@
 @media screen and (min-width:768px) {
   .header-container {
     padding: 4px 28px;
+    height: 48px;
   }
 
   .header-logo {
