@@ -1,0 +1,32 @@
+.advantages {}
+
+.container {}
+
+.advantages-container {}
+
+.advantages-title {}
+
+.advanteges-info {
+    border-radius: 24px;
+    width: 335px;
+    background: #1b414b;
+    padding: 80px 20px;
+}
+
+.advantages-list {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.advantages-list-item {}
+
+.advantages-list-item-text {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.16667;
+    letter-spacing: -0.02em;
+    color: #fbfbfb;
+}
+
+.advantages-img {}
