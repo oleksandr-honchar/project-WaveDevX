@@ -10,7 +10,6 @@
 }
 
 .header-logo {
-  font-family: "Inter", sans-serif;
   font-weight: 500;
   font-size: 14px;
   letter-spacing: -0.03em;
@@ -27,6 +26,7 @@
 }
 
 .menu-icon {
+  display: flex;
   stroke: #1b414b;
   filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
 }
