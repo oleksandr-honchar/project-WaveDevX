@@ -13,11 +13,11 @@ body {
   line-height: 1.5;
 }
 
-* {
+/* * {
   cursor: url('/img/cursors/cursor.svg'), auto;
-}
+} */
 
 button:hover,
 a:hover {
-  cursor: url('/img/cursors/cursor-pointer.svg'), auto;
+  cursor: url('/img/icons/cursor.svg'), auto;
 }
