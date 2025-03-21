@@ -50,20 +50,16 @@
 }
 
 .about-us-image {
-  /* display: block;
-    min-width: 100%; */
   position: absolute;
-  /* top: 380px; */
-  top: 56%;
+  top: 380px;
+  /* top: 56%; */
   left: 0;
-  transform: translateY(px);
 }
 
 @media screen and (min-width: 768px) {
   .about-us-section {
     min-height: 951px;
-    /* position: absolute;
-  top: 895 * 100/962=93%; */
+    /*top: 895 * 100/962=93%; */
   }
 
   .about-us-description-container {
@@ -90,18 +86,14 @@
   }
 
   .about-us-image {
-    position: absolute;
     top: 481px;
-    left: 0;
-    transform: translateY(px);
   }
 }
 
 @media screen and (min-width: 1280px) {
   .about-us-section {
     min-height: 830px;
-    /* position: absolute;
-  top: 765 * 100/800=95,6%; */
+    /* top: 765px * 100% / 800px =95,6%; */
   }
   .about-us-description-container {
     display: flex;
@@ -125,18 +117,14 @@
   }
 
   .about-us-image {
-    position: absolute;
-    /* top: 360px; */
-    top: 53%;
-    left: 0;
-    transform: translateY();
+    top: 360px;
+    /* top: 53%; */
   }
 }
 @media screen and (min-width: 1440px) {
   .about-us-section {
     min-height: 808px;
-    /* position: absolute;
-  top: 765 * 100/800=95,6%; */
+    /* top: 765px * 100/800=95,6%; */
   }
 
   .about-us-description-container {
@@ -160,12 +148,7 @@
   }
 
   .about-us-image {
-    width: 100%;
-
-    position: absolute;
-    /* top: 337px; */
-    top: 50%;
-    left: 0;
-    transform: translateY();
+    top: 337px;
+    /* top: 50%; */
   }
 }
