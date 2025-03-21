@@ -1,7 +1,8 @@
+/* #region rent-a-yacht */
 .rent-a-yacht {
   max-width: 375px;
   background-color: #0e1823;
-  padding: 0 20px;
+  padding: 0 20px 80px;
 }
 .ray-title {
   font-family: 'Inter', sans-serif;
@@ -12,28 +13,54 @@
   color: #fbfbfb;
   margin-bottom: 40px;
 }
+
 .ray-inputs {
+  display: flex;
+  flex-direction: column;
   gap: 18px;
 }
 .ray-input {
   background-color: transparent;
   border: 1px solid rgba(251, 251, 251, 0.2);
   border-radius: 12px;
-  padding: 14px 261px 14px 18px;
-  width: 335px;
+  padding: 14px 18px 14px 18px;
+  width: 100%;
   height: 42px;
+  color: #fbfbfb;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  outline: none;
+}
+.ray-input:focus {
+  border: 1px solid rgba(251, 251, 251, 0.5);
 }
 .ray-comment {
+  background-color: transparent;
   border: 1px solid rgba(251, 251, 251, 0.2);
   border-radius: 12px;
-  padding: 14px 261px 80px 18px;
-  width: 335px;
+  padding: 14px 18px 80px 18px;
+  width: 100%;
   height: 108px;
   margin-bottom: 40px;
+  resize: none;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  overflow: hidden;
+  color: #fbfbfb;
+  outline: none;
+}
+.ray-comment:focus,
+.ray-comment:active {
+  border: 1px solid rgba(251, 251, 251, 0.5);
 }
 .ray-button {
   font-family: 'Inter', sans-serif;
   border-radius: 15px;
+  border: transparent;
   padding: 14px 44px;
   width: 122px;
   height: 46px;
@@ -43,7 +70,14 @@
   line-height: 1.29;
   letter-spacing: -0.02em;
   color: #fbfbfb;
+  line-height: 0;
   margin-bottom: 80px;
+  cursor: pointer;
+}
+.ray-button:focus,
+.ray-button:active {
+  background-color: #fbfbfb;
+  color: #1b414b;
 }
 .ray-image {
   border-radius: 24px;
@@ -51,7 +85,87 @@
   height: 412px;
   margin-bottom: 80px;
 }
+.ray-picture {
+  border-radius: 24px;
+  width: 335px;
+  height: 412px;
+}
 .ray-main {
 }
 .ray-infoblock {
 }
+.ray-hidden {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .rent-a-yacht {
+    max-width: 768px;
+    padding: 0 32px 80px 32px;
+  }
+  .ray-infoblock {
+    width: 473px;
+    margin: 0 auto;
+  }
+  .ray-title {
+    font-size: 48px;
+  }
+  .ray-input {
+    padding: 18px 18px 18px 18px;
+    width: 472px;
+    height: 54px;
+  }
+  .ray-comment {
+    padding: 18px 18px 80px 18px;
+    width: 472px;
+    height: 116px;
+    margin-bottom: 50px;
+  }
+  .ray-button {
+    padding: 18px 75px;
+    width: 194px;
+    height: 56px;
+    font-size: 18px;
+    line-height: 1.1;
+    margin-bottom: 100px;
+  }
+  .ray-picture {
+    width: 704px;
+    height: 534px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .rent-a-yacht {
+    max-width: 1280px;
+    padding: 0 50px 150px 50px;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .ray-picture {
+    width: 658px;
+    height: 536px;
+    margin-right: 50px;
+  }
+  .ray-button {
+    margin-bottom: 0;
+  }
+  .ray-button:hover {
+    background-color: #fbfbfb;
+    color: #1b414b;
+  }
+  .ray-input:hover {
+    border: 1px solid rgba(251, 251, 251, 0.5);
+  }
+  .ray-comment:hover {
+    border: 1px solid rgba(251, 251, 251, 0.5);
+  }
+}
+@media screen and (min-width: 1440px) {
+  .rent-a-yacht {
+    max-width: 1440px;
+    padding: 0 100px 150px 50px;
+  }
+  .ray-picture {
+    width: 768px;
+  }
+}
+/* #endregion rent-a-yacht */
