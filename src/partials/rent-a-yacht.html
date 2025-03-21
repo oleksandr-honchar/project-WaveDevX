@@ -1,0 +1,71 @@
+<section class="rent-a-yacht" id="rent-a-yacht">
+  <div class="ray-infoblock">
+    <h2 class="ray-title">Rent a yacht now</h2>
+    <form class="ray-inputs">
+      <label for="user-name" class="ray-hidden"></label>
+      <input
+        name="user-name"
+        id="user-name"
+        type="text"
+        class="ray-input"
+        placeholder="Full Name"
+        placeholder
+        required
+      />
+      <label for="email" class="ray-hidden"></label>
+      <input
+        name="email"
+        type="email"
+        id="email"
+        class="ray-input"
+        placeholder="Email"
+        pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+        palaceholder
+        required
+      />
+      <label for="tel" class="ray-hidden"></label>
+      <input
+        name="phone"
+        type="tel"
+        id="tel"
+        class="ray-input"
+        placeholder="Phone number"
+        pattern="^\+\d{2}-\d{3}-\d{3}-\d{2}-\d{2}$"
+        placeholder
+        required
+      />
+      <textarea
+        name="user-comment"
+        id="user-comment"
+        class="ray-comment"
+        placeholder="Comment"
+      ></textarea>
+    </form>
+    <button type="submit" class="ray-button">Send</button>
+  </div>
+  <div class="ray-main">
+    <picture class="ray-image">
+      <source
+        srcset="/img/rent-mob.jpg 1x, /img/rent-mob@2x.jpg 2x"
+        media="(max-width: 767px)"
+      />
+      <source
+        srcset="/img/rent-tab.jpg 1x, /img/rent-tab@2x.jpg 2x"
+        media="(min-width: 768px)"
+      />
+      <source
+        srcset="/img/rent-desk.jpg 1x, /img/rent-desk@2x.jpg 2x"
+        media="(min-width: 1280px)"
+      />
+      <source
+        srcset="/img/rent-widedesk.jpg 1x, /img/rent-widedesk@2x.jpg 2x"
+        media="(min-width: 1400px)"
+      />
+      <img
+        src="/img/rent-mob.jpg"
+        alt="rent-a-yacht-picture"
+        class="ray-picture"
+      />
+    </picture>
+  </div>
+</section>
