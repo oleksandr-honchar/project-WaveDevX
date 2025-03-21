@@ -50,9 +50,11 @@
 }
 
 .about-us-image {
+  border-radius: 24px;
+  overflow: hidden;
   position: absolute;
-  top: 380px;
-  /* top: 56%; */
+  /* top: 380px; */
+  top: 56%;
   left: 0;
 }
 
