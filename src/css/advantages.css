@@ -96,6 +96,7 @@
 @media screen and (min-width: 768px){
 
     .advantages-container {
+        gap: 32px;
         padding: 0 32px;
     }
 
