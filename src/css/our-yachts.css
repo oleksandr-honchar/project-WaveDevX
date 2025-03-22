@@ -123,7 +123,7 @@
   line-height: 1.29;
   letter-spacing: -0.02em;
   text-align: center;
-  padding: 14px 32px;
+  padding: 14px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .our-yachts-btn:focus,
@@ -185,7 +185,7 @@
 
     line-height: 1.1;
     letter-spacing: -0.02em;
-    padding: 16px 40px;
+    padding: 16px;
   }
 }
 @media screen and (min-width: 1280px) {
