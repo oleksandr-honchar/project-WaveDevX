@@ -86,7 +86,8 @@
   gap: 20px;
   margin-top: 82px;
   position: relative;
-  left: 54px;
+  left: 44px;
+  white-space: nowrap;
   max-width: 248px;
 }
 
