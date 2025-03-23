@@ -127,6 +127,15 @@
   justify-content: space-between;
   padding: 7px 20px;
   height: 42px;
+  width: 335px;
+}
+
+.close-btn{
+  background-color: #fbfbfb;
+  border: none;
+  display: flex;
+  align-items: center;
+
 }
 .mobile-menu {
 
@@ -145,12 +154,10 @@
   display: flex;
   flex-direction: column;
   height: 100%;
-  padding: 72px 24px 40px 16px;
+  padding: 16px 20px;
 }
 
-.container {
-  height: 100%;
-}
+
 
 @media screen and (min-width:812px) {
   .mobile-menu {
@@ -170,16 +177,11 @@
 .mobile-menu.is-open {
   opacity: 1;
   visibility: visible;
-  pointer-events: all;
+  pointer-events: auto;
   transform: translateX(0%);
 }
 
 
-.close-btn {
-  position: absolute;
-  top: 24px;
-  right: 2;
-}
 
 
 .menu-logo {
@@ -190,34 +192,19 @@
 }
 
 .menu-list {
-  display: none;
-}
-
-.menu-list-socials {
-  display: none;
-}
-
-.close-btn-icon {
   display: flex;
-  stroke: #1b414b;
-  filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 259px;
+  left: 142px;
+  right: 142px;
+  gap: 8px;
+
+
 }
 
-@media screen and (min-width:812px) {
-  .menu-container {
-    padding: 4px 28px;
-    height: 48px;
-    width: 704px;
-  }
 
-  .menu-logo {
-    font-size: 20px;
-  }
-
-  .menu-list {
-    display: flex;
-    gap: 4px;
-  }
 
   .menu-list-link {
     display: flex;
@@ -233,6 +220,7 @@
     background: rgba(27, 65, 75, 0.5);
     align-items: center;
     justify-content: center;
+    gap: 8px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
@@ -244,6 +232,11 @@
   .menu-list-socials {
     display: flex;
     gap: 8px;
+    position: absolute;
+    bottom: 39px;
+    left: 148px;
+    right: 139px;
+    justify-content: center;
   }
 
   .menu-list-socials-link {
@@ -252,7 +245,7 @@
   }
 
   .menu-socials-icon {
-    fill: #1b414b;
+    fill: #fbfbfb;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
@@ -261,4 +254,3 @@
     fill: #062730;
   }
   
-}
