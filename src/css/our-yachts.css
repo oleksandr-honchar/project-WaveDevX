@@ -153,7 +153,7 @@
 
   .our-yachts-list {
     display: flex;
-    gap: 33px;
+    gap: 32px;
     justify-content: space-between;
   }
   .our-yachts-list-item {
@@ -196,10 +196,10 @@
   }
 
   .our-yachts-list {
-    gap: 32px;
+    gap: 25px;
   }
   .our-yachts-list-item {
-    width: calc((100% - 64px) / 3);
+    width: calc((100% - 50px) / 3);
 
     justify-content: center;
     align-items: center;
@@ -210,5 +210,14 @@
   .our-yachts {
     padding: 150px 100px;
     width: 1440px;
+  }
+  .our-yachts-list {
+    gap: 32px;
+  }
+  .our-yachts-list-item {
+    width: calc((100% - 64px) / 3);
+
+    justify-content: center;
+    align-items: center;
   }
 }
