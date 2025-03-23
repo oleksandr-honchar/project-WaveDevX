@@ -4,6 +4,13 @@
   margin: 0 auto;
 }
 
+.header-hero-container {
+  background-image: url(/img/hero.jpg);
+  background-size: cover;
+  background-position: center;
+  padding-top: 20px;
+}
+
 @media (min-width: 375px) {
   .container {
     max-width: 335px; /* Fixed width for mobile adaptive design */
@@ -13,6 +20,10 @@
 @media (min-width: 768px) {
   .container {
     max-width: 768px; /* Fixed width for tablets */
+  }
+
+  .header-hero-container {
+    padding-top: 32px;
   }
 }
 
