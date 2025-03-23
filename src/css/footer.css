@@ -4,13 +4,13 @@
 
 .footer-container {
   border-radius: 24px 24px 0 0;
-  min-width: 355px;
+  max-width: 355px;
   height: 412px;
   background-color: #1b414b;
 }
 
 .logo-footer {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 500;
   font-size: 14px;
   letter-spacing: -0.03em;
@@ -63,7 +63,8 @@
   fill: #fbfbfb;
 }
 
-.icon-footer:hover, .icon-footer:focus {
+.icon-footer:hover,
+.icon-footer:focus {
   fill: rgba(251, 251, 251, 0.8);
 }
 
@@ -90,7 +91,7 @@
 }
 
 .footer-text {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 400;
   font-size: 12px;
   line-height: 1.7;
@@ -101,11 +102,11 @@
 
 @media screen and (min-width: 768px) {
   .footer {
-      margin-top: 150px;
-    }
+    margin-top: 150px;
+  }
 
   .footer-container {
-    width: 736px;
+    max-width: 736px;
     height: 418px;
   }
 
@@ -119,11 +120,11 @@
 
   .btn-footer {
     width: 91px;
-    }
+  }
 
   .links-footer-list {
     max-width: 281px;
-    }
+  }
 
   .footer-descr {
     margin-top: 96px;
@@ -131,12 +132,12 @@
     max-width: 640px;
   }
 
-   .footer-text-div {
+  .footer-text-div {
     margin-top: 100px;
     max-width: 298px;
     gap: 32px;
     left: 220px;
-    }
+  }
 
   .footer-text {
     font-size: 14px;
@@ -154,52 +155,52 @@
 
 @media screen and (min-width: 1280px) {
   .footer-container {
-    width: 1230px;
-    }
+    max-width: 1230px;
+  }
 
   .social-link-footer-list {
     left: 1060px;
     bottom: 16px;
   }
 
-    .links-footer-list {
-      left: 475px;
-    }
+  .links-footer-list {
+    left: 475px;
+  }
 
-    .footer-text-div {
-      gap: 32px;
-      margin-top: 100px;
-      left: 466px;
-      max-width: 298px;
-    }
+  .footer-text-div {
+    gap: 32px;
+    margin-top: 100px;
+    left: 466px;
+    max-width: 298px;
+  }
 
-    .footer-descr {
-      max-width: 693px;
-    }
+  .footer-descr {
+    max-width: 693px;
+  }
 }
 
 @media screen and (min-width: 1440px) {
   .footer-container {
-    width: 1390px;
-    }
+    max-width: 1390px;
+  }
 
   .social-link-footer-list {
     left: 1220px;
     bottom: 16px;
-    }
-    
-  .links-footer-list {
-      left: 558px;
-    }
-    
-    .footer-text-div {
-      gap: 32px;
-      margin-top: 100px;
-      left: 546px;
-      max-width: 298px;
-    }
+  }
 
-    .footer-descr {
-      max-width: 699px;
-    }
+  .links-footer-list {
+    left: 558px;
+  }
+
+  .footer-text-div {
+    gap: 32px;
+    margin-top: 100px;
+    left: 546px;
+    max-width: 298px;
+  }
+
+  .footer-descr {
+    max-width: 699px;
+  }
 }
