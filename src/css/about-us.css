@@ -2,13 +2,14 @@
   background-color: #0e1823;
   padding: 0;
   min-height: 775px;
-  /* position: absolute;
-  top: 753 * 100/812=93%; */
+  margin-top: -59px;
 }
 
 .about-us-container {
   position: relative;
+  max-width: 335px;
   min-height: auto;
+  margin: 0 auto;
 }
 
 .about-us-description-container {
@@ -35,7 +36,7 @@
   line-height: 1;
   letter-spacing: -0.02em;
   color: #1b414b;
-  max-width: 275px;
+  max-width: 290px;
   margin-bottom: 20px;
 }
 
@@ -46,22 +47,25 @@
   letter-spacing: -0.02em;
   color: #040306;
   opacity: 0.4;
-  max-width: 270px;
+  max-width: 295px;
 }
 
 .about-us-image {
   border-radius: 24px;
   overflow: hidden;
   position: absolute;
-  /* top: 380px; */
-  top: 56%;
+  top: 380px;
   left: 0;
 }
 
 @media screen and (min-width: 768px) {
   .about-us-section {
     min-height: 951px;
-    /*top: 895 * 100/962=93%; */
+    margin-top: -67px;
+  }
+
+  .about-us-container {
+    max-width: 704px;
   }
 
   .about-us-description-container {
@@ -84,7 +88,7 @@
   .about-us-description-s {
     font-size: 13px;
     line-height: 1.15;
-    max-width: 360px;
+    max-width: 390px;
   }
 
   .about-us-image {
@@ -95,8 +99,13 @@
 @media screen and (min-width: 1280px) {
   .about-us-section {
     min-height: 830px;
-    /* top: 765px * 100% / 800px =95,6%; */
+    margin-top: -35px;
   }
+
+  .about-us-container {
+    max-width: 1180px;
+  }
+
   .about-us-description-container {
     display: flex;
     justify-content: space-between;
@@ -110,23 +119,25 @@
   }
 
   .about-us-description-f {
-    max-width: 325px;
+    max-width: 354px;
     margin-bottom: 20px;
   }
 
   .about-us-description-s {
-    max-width: 325px;
+    max-width: 354px;
   }
 
   .about-us-image {
     top: 360px;
-    /* top: 53%; */
   }
 }
 @media screen and (min-width: 1440px) {
   .about-us-section {
     min-height: 808px;
-    /* top: 765px * 100/800=95,6%; */
+  }
+
+  .about-us-container {
+    max-width: 1340px;
   }
 
   .about-us-description-container {
@@ -142,15 +153,14 @@
   }
 
   .about-us-description-f {
-    max-width: 380px;
+    max-width: 404px;
   }
 
   .about-us-description-s {
-    max-width: 380px;
+    max-width: 404px;
   }
 
   .about-us-image {
     top: 337px;
-    /* top: 50%; */
   }
 }
