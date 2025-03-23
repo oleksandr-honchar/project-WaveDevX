@@ -1,4 +1,33 @@
 .title-hero {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #fbfbfb;
+  /* max-width: 335px; */
+  margin-bottom: 24px;
+}
+
+.hero-text {
+  /* font-weight: 300; */
+  font-size: 12px;
+  line-height: 1.17;
+  text-align: center;
+  color: rgba(251, 251, 251, 0.7);
+  margin-bottom: 38px;
+}
+
+.hero-link {
+  display: block;
+  margin: 0 auto;
+  border-radius: 15px;
+  padding: 14px 32px;
+  font-weight: 500;
+  font-size: 14px;
+  text-align: center;
+  line-height: 1.28;
+  letter-spacing: -0.02em;
   font-size: 80px;
   color: #fbfbfb;
 }
