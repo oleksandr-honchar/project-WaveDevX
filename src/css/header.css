@@ -204,7 +204,7 @@
   border-radius: 8px;
   width: 91px;
   height: 40px;
-  background: rgba(27, 65, 75, 0.5);
+  background: #1b414b;
   align-items: center;
   justify-content: center;
   gap: 8px;
@@ -213,7 +213,7 @@
 
 .menu-list-link:hover,
 .menu-list-link:focus {
-  background: #1b414b;
+  background: rgba(27, 65, 75, 0.5);
 }
 
 .menu-list-socials {
