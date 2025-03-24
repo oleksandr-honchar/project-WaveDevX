@@ -9,7 +9,6 @@
         type="text"
         class="ray-input"
         placeholder="Full Name"
-        placeholder
         required
       />
       <label for="email" class="ray-hidden"></label>
@@ -20,7 +19,6 @@
         class="ray-input"
         placeholder="Email"
         pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
-        palaceholder
         required
       />
       <label for="tel" class="ray-hidden"></label>
@@ -31,7 +29,6 @@
         class="ray-input"
         placeholder="Phone number"
         pattern="^\+\d{2}-\d{3}-\d{3}-\d{2}-\d{2}$"
-        placeholder
         required
       />
       <textarea
@@ -47,17 +44,10 @@
     <picture class="ray-image">
       <source
         srcset="
-          /img/rent-a-yacht/rent-mob.jpg    1x,
-          /img/rent-a-yacht/rent-mob@2x.jpg 2x
+          /img/rent-a-yacht/rent-widedesk.jpg    1x,
+          /img/rent-a-yacht/rent-widedesk@2x.jpg 2x
         "
-        media="(max-width: 767px)"
-      />
-      <source
-        srcset="
-          /img/rent-a-yacht/rent-tab.jpg    1x,
-          /img/rent-a-yacht/rent-tab@2x.jpg 2x
-        "
-        media="(min-width: 768px)"
+        media="(min-width: 1440px)"
       />
       <source
         srcset="
@@ -68,10 +58,17 @@
       />
       <source
         srcset="
-          /img/rent-a-yacht/rent-widedesk.jpg    1x,
-          /img/rent-a-yacht/rent-widedesk@2x.jpg 2x
+          /img/rent-a-yacht/rent-tab.jpg    1x,
+          /img/rent-a-yacht/rent-tab@2x.jpg 2x
         "
-        media="(min-width: 1400px)"
+        media="(min-width: 768px)"
+      />
+      <source
+        srcset="
+          /img/rent-a-yacht/rent-mob.jpg    1x,
+          /img/rent-a-yacht/rent-mob@2x.jpg 2x
+        "
+        media="(max-width: 767px)"
       />
       <img
         src="/img/rent-a-yacht/rent-mob.jpg"
