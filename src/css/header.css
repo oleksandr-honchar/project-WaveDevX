@@ -30,7 +30,7 @@
   filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
 }
 
-@media screen and (min-width:768px) {
+@media screen and (min-width: 768px) {
   .header-container {
     padding: 4px 28px;
     height: 48px;
@@ -93,14 +93,14 @@
   }
 }
 
-@media screen and (min-width:1280px) {
+@media screen and (min-width: 1280px) {
   .header-container {
     padding: 4px 30px;
     width: 1080px;
   }
 }
 
-@media screen and (min-width:1440px) {
+@media screen and (min-width: 1440px) {
   .header-container {
     width: 1240px;
   }
