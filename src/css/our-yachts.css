@@ -1,5 +1,5 @@
 .our-yachts {
-  padding: 80px 20px;
+  padding: 0 20px 80px;
   margin: 0 auto;
 }
 
@@ -128,7 +128,7 @@
 @media screen and (min-width: 768px) {
   .our-yachts {
     width: 768px;
-    padding: 150px 32px;
+    padding: 0 32px 150px;
   }
   .our-yachts-list-item:nth-child(2) {
     display: block;
@@ -181,7 +181,7 @@
 }
 @media screen and (min-width: 1280px) {
   .our-yachts {
-    padding: 150px 50px;
+    padding: 0 50px 150px;
     width: 1280px;
   }
   .our-yachts-list-item:nth-child(3) {
@@ -208,7 +208,7 @@
 
 @media screen and (min-width: 1440px) {
   .our-yachts {
-    padding: 150px 100px;
+    padding: 0 100px 150px;
     width: 1440px;
   }
   .our-yachts-list {
