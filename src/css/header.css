@@ -111,9 +111,6 @@
   }
 }
 
-
-
-
 /*mobile menu*/
 
 .menu-container {
@@ -166,7 +163,6 @@
     display: none;
   }
 }
-
 
 .mobile-menu.is-open {
   opacity: 1;
