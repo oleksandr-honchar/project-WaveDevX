@@ -27,6 +27,7 @@
 }
 
 .btn-footer {
+  font-family: inherit;
   display: flex;
   font-weight: 400;
   font-size: 9px;
