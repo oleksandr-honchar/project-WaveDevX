@@ -3,6 +3,7 @@
   max-width: 375px;
   background-color: #0e1823;
   padding: 0 20px 80px;
+  margin: 0 auto;
 }
 .ray-title {
   font-family: 'Inter', sans-serif;
