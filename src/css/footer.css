@@ -3,25 +3,25 @@
   max-width: 355px;
   height: 412px;
   background-color: #1b414b;
+  padding: 40px 30px 10px;
 }
 
 .logo-footer {
-  font-family: 'Inter', sans-serif;
   font-weight: 500;
   font-size: 14px;
   letter-spacing: -0.03em;
   color: #fbfbfb;
-  position: relative;
-  top: 40px;
-  left: 30px;
+}
+
+.container-f {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .links-footer-list {
   display: flex;
   justify-content: center;
-  position: relative;
-  left: 30%;
-  top: 6%;
   gap: 4px;
   max-width: 206px;
 }
@@ -29,7 +29,6 @@
 .btn-footer {
   font-family: inherit;
   display: flex;
-  font-weight: 400;
   font-size: 9px;
   line-height: 1.3;
   text-transform: uppercase;
@@ -52,9 +51,9 @@
 
 .social-link-footer-list {
   display: flex;
-  justify-content: center;
-  margin-top: 82px;
-  margin-bottom: 42px;
+  margin: 0 auto;
+  padding-top: 82px;
+  padding-bottom: 42px;
   gap: 8px;
 }
 
@@ -80,22 +79,17 @@
 }
 
 .footer-text-div {
-  display: flex;
   gap: 20px;
-  margin-top: 82px;
-  position: relative;
-  left: 44px;
+  display: flex;
+  padding-top: 82px;
   white-space: nowrap;
-  max-width: 248px;
+  justify-content: center;
 }
 
 .footer-text {
-  font-family: 'Inter', sans-serif;
-  font-weight: 400;
   font-size: 12px;
   line-height: 1.7;
   letter-spacing: 0.03em;
-  text-align: center;
   color: rgba(251, 251, 251, 0.4);
 }
 
@@ -103,14 +97,17 @@
   .footer-container {
     max-width: 736px;
     height: 418px;
+    padding: 50px 48px 20px;
+  }
+
+  .social-link-footer-list {
+    margin: 0;
+    padding: 0;
   }
 
   .logo-footer {
     font-size: 20px;
     color: #fbfbfb;
-    position: relative;
-    top: 50px;
-    left: 48px;
   }
 
   .btn-footer {
@@ -121,51 +118,48 @@
     max-width: 281px;
   }
 
+  .footer-text-div {
+    gap: 32px;
+    padding-top: 0;
+    margin: 0 auto;
+  }
+
   .footer-descr {
     margin-top: 96px;
     font-size: 32px;
     max-width: 640px;
+    margin-bottom: 120px;
   }
 
   .footer-text-div {
-    margin-top: 100px;
-    max-width: 298px;
     gap: 32px;
-    left: 220px;
+    white-space: nowrap;
+    max-width: 298px;
   }
-
   .footer-text {
     font-size: 14px;
     line-height: 1.18;
   }
 
   .social-link-footer-list {
-    margin: 0;
-    position: relative;
-    left: 600px;
-    bottom: 15px;
     max-width: 88px;
+    gap: 8px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .footer-container {
     max-width: 1230px;
+    padding: 50px 75px 20px;
   }
 
-  .social-link-footer-list {
-    left: 1060px;
-    bottom: 16px;
-  }
-
-  .links-footer-list {
-    left: 475px;
+  .logo-footer {
+    font-size: 20px;
+    color: #fbfbfb;
   }
 
   .footer-text-div {
     gap: 32px;
-    margin-top: 100px;
-    left: 466px;
     max-width: 298px;
   }
 
@@ -177,21 +171,16 @@
 @media screen and (min-width: 1440px) {
   .footer-container {
     max-width: 1390px;
+    padding: 50px 75px 20px;
   }
 
-  .social-link-footer-list {
-    left: 1220px;
-    bottom: 16px;
-  }
-
-  .links-footer-list {
-    left: 558px;
+  .logo-footer {
+    font-size: 20px;
+    color: #fbfbfb;
   }
 
   .footer-text-div {
     gap: 32px;
-    margin-top: 100px;
-    left: 546px;
     max-width: 298px;
   }
 
