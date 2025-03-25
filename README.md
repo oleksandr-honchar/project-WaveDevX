@@ -52,7 +52,6 @@
 
 1️⃣ **Клонувати репозиторій**  
    git clone https://github.com/oleksandr-honchar/project-YJcrew10.git
-Перейти в папку проєкту
 2️⃣ **Перейти в папку проєкту**  
 cd project-YJcrew10
 3️⃣ **Встановити залежності**  
