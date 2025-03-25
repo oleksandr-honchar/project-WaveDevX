@@ -6,7 +6,7 @@
   padding: 40px 30px 20px;
 }
 
-.footer-uper-container {
+.footer-upper-container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -27,7 +27,7 @@
 }
 
 @media screen and (min-width: 375px) {
-  .footer-uper-container {
+  .footer-upper-container {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -119,7 +119,7 @@
     padding: 50px 48px 20px;
   }
 
-  .footer-uper-container {
+  .footer-upper-container {
     gap: 110px;
   }
 
@@ -177,7 +177,7 @@
     padding: 50px 75px 20px;
   }
 
-  .footer-uper-container {
+  .footer-upper-container {
     gap: 330px;
   }
 
@@ -202,7 +202,7 @@
     padding: 50px 75px 20px;
   }
 
-  .footer-uper-container {
+  .footer-upper-container {
     gap: 409px;
   }
 
