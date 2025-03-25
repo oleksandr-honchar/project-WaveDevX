@@ -44,7 +44,9 @@
   padding: 14px 18px 80px 18px;
   width: 100%;
   height: 108px;
-  margin-bottom: 40px;
+
+  margin-bottom: 22px;
+
   resize: none;
   font-family: 'Inter', sans-serif;
   font-weight: 400;
@@ -72,7 +74,6 @@
   letter-spacing: -0.02em;
   color: #fbfbfb;
   line-height: 0;
-  margin-bottom: 80px;
   cursor: pointer;
 }
 .ray-button:focus,
@@ -94,6 +95,7 @@
 .ray-main {
 }
 .ray-infoblock {
+  padding-bottom: 80px;
 }
 .ray-hidden {
   display: none;
@@ -106,6 +108,7 @@
   .ray-infoblock {
     width: 473px;
     margin: 0 auto;
+    padding-bottom: 100px;
   }
   .ray-title {
     font-size: 48px;
@@ -120,7 +123,7 @@
     padding: 18px 18px 80px 18px;
     width: 472px;
     height: 116px;
-    margin-bottom: 50px;
+    margin-bottom: 32px;
   }
   .ray-button {
     padding: 18px 75px;
@@ -128,7 +131,6 @@
     height: 56px;
     font-size: 18px;
     line-height: 1.1;
-    margin-bottom: 100px;
   }
   .ray-picture {
     width: 704px;
@@ -141,6 +143,10 @@
     padding: 0 50px 150px 50px;
     display: flex;
     flex-direction: row-reverse;
+  }
+
+  .ray-infoblock {
+    padding-bottom: 0;
   }
   .ray-picture {
     width: 658px;

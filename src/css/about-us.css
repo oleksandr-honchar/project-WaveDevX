@@ -3,7 +3,7 @@
   padding: 0;
   min-height: 775px;
   margin-top: -59px;
-  margin-bottom: 80px;
+  padding-bottom: 180px;
 }
 
 .about-us-container {
@@ -63,7 +63,7 @@
   .about-us-section {
     min-height: 951px;
     margin-top: -67px;
-    margin-bottom: 150px;
+    padding-bottom: 426px;
   }
 
   .about-us-container {
@@ -102,6 +102,7 @@
   .about-us-section {
     min-height: 830px;
     margin-top: -35px;
+    padding-bottom: 305px;
   }
 
   .about-us-container {
@@ -136,6 +137,7 @@
 @media screen and (min-width: 1440px) {
   .about-us-section {
     min-height: 808px;
+    padding-bottom: 282px;
   }
 
   .about-us-container {
