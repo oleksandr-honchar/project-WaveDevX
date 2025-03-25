@@ -4,6 +4,7 @@
   height: 412px;
   background-color: #1b414b;
   padding: 40px 30px 20px;
+
 }
 
 .footer-upper-container {
@@ -24,6 +25,8 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  flex-direction: column;
+
 }
 
 @media screen and (min-width: 375px) {
@@ -35,6 +38,7 @@
 
   .container-f {
     justify-content: space-between;
+
   }
 }
 
@@ -128,6 +132,10 @@
     padding: 0;
   }
 
+  .container-f {
+    flex-direction: row;
+  }
+
   .logo-footer {
     font-size: 20px;
     color: #fbfbfb;
@@ -210,6 +218,8 @@
     font-size: 20px;
     color: #fbfbfb;
   }
+
+
 
   .footer-text-div {
     gap: 32px;
