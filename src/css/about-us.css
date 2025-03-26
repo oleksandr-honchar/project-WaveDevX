@@ -61,11 +61,14 @@
 }
 
 @media (max-width: 374px) {
+  .about-us-description-container {
+    padding: 40px 16px 335px;
+  }
+
   .about-us-image {
     width: 95%;
     max-width: 100%;
     height: auto;
-    top: 400px;
     left: 50%;
     transform: translateX(-50%);
   }
