@@ -4,6 +4,12 @@
   margin: 0 auto;
 }
 
+@media (max-width: 374px) {
+  .container {
+    padding: 0 8px;
+  }
+}
+
 @media (min-width: 375px) {
   .container {
     max-width: 335px; /* Fixed width for mobile adaptive design */

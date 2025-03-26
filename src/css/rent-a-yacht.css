@@ -102,7 +102,7 @@
 @media screen and (min-width: 768px) {
   .rent-a-yacht {
     max-width: 768px;
-    padding: 0 32px 80px 32px;
+    padding: 0 32px 150px;
   }
   .ray-infoblock {
     width: 473px;
@@ -139,7 +139,7 @@
 @media screen and (min-width: 1280px) {
   .rent-a-yacht {
     max-width: 1280px;
-    padding: 0 50px 150px 50px;
+    padding: 0 50px 150px;
     display: flex;
     flex-direction: row-reverse;
   }

@@ -1,10 +1,9 @@
 .footer-container {
   border-radius: 24px 24px 0 0;
   max-width: 355px;
-  height: 412px;
+  height: 100%;
   background-color: #1b414b;
   padding: 40px 30px 20px;
-
 }
 
 .footer-upper-container {
@@ -26,7 +25,6 @@
   flex-wrap: wrap;
   justify-content: center;
   flex-direction: column;
-
 }
 
 @media screen and (min-width: 375px) {
@@ -38,7 +36,6 @@
 
   .container-f {
     justify-content: space-between;
-
   }
 }
 
@@ -218,8 +215,6 @@
     font-size: 20px;
     color: #fbfbfb;
   }
-
-
 
   .footer-text-div {
     gap: 32px;

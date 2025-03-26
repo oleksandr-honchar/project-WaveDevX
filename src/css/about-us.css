@@ -59,6 +59,17 @@
   left: 0;
 }
 
+@media (max-width: 320px) {
+  .about-us-image {
+    width: 95%; /* Автоматичне стиснення */
+    max-width: 100%;
+    height: auto; /* Збереження пропорцій */
+    top: 400px; /* Зміщення ще більше вниз, щоб не перекривати текст */
+    left: 50%; /* Центрування */
+    transform: translateX(-50%);
+  }
+}
+
 @media screen and (min-width: 768px) {
   .about-us-section {
     min-height: 951px;
