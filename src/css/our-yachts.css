@@ -125,6 +125,12 @@
   color: #1b414b;
 }
 
+@media (max-width: 374px) {
+  .our-yachts {
+    padding: 0 12px 80px;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .our-yachts {
     width: 768px;
