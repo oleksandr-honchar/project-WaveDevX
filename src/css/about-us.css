@@ -57,15 +57,16 @@
   position: absolute;
   top: 380px;
   left: 0;
+  max-width: 100%;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 374px) {
   .about-us-image {
-    width: 95%; /* Автоматичне стиснення */
+    width: 95%;
     max-width: 100%;
-    height: auto; /* Збереження пропорцій */
-    top: 400px; /* Зміщення ще більше вниз, щоб не перекривати текст */
-    left: 50%; /* Центрування */
+    height: auto;
+    top: 400px;
+    left: 50%;
     transform: translateX(-50%);
   }
 }
